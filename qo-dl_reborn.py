@@ -15,7 +15,7 @@ import requests
 from tqdm import tqdm
 from mutagen import File
 import mutagen.id3 as id3
-from mutagen.wave import WAVE, Picture
+from mutagen.flac import FLAC, Picture
 from mutagen.id3 import ID3NoHeaderError
 
 client = qopy.Client()
